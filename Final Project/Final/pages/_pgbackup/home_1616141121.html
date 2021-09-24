@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style type="text/css">div.form { display: block; text-align: center; } form { align-self: center; display: inline; margin-left: auto; margin-right: auto; text-align: center; }</style>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <body id="bg" style="background-image: url('{% static "a.png" %}');background-repeat:no-repeat;background-size:1900px 1000px; ">
+        <div class="form">
+            <form action="g1">
+                <h1> Enter Name :</h1>
+                <input type="text" name="name"><br>
+                <input type="submit" value="Running Jump Game" style="width: 200; height: 50; position: static; z-index: 100; background-color: #17e18d;"/>
+            </form>
+        </div>
+        <div class="form">
+            <form action="g3">
+                <h1> Enter Name :</h1>
+                <input type="text" name="name"><br>
+                <input type="submit" value="Long Jump" style="background-color: #17e18d; width: 200; height: 50;"/>
+            </form>
+        </div>
+        <div class="form">
+            <form action="g2">
+                <h1> Enter Name :</h1>
+                <input type="text" name="name"><br>
+                <input type="submit" value="Snake Game" style="width: 200; height: 50; position: static; vertical-align: middle; background-color: #17e18d;"/>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style type="text/css">div{ display: block; text-align: center; }></style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Scorecard</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body id="bg" style="background-image: url('{% static "sc.jpg" %}');background-repeat:no-repeat;background-size:1900px 1000px; ">
+        <div>
+        <h1 style="color: Orange;"> Name :  {{name}}</h1>
+        <h1 style="color: orange;"> Score:  {{score}}</h1>
+        </div>
+    </body>
+</html>
